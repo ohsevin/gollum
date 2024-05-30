@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_dependency('github-markdown')
   s.add_dependency('pygments.rb', ">= 0.2.0")
   s.add_dependency('posix-spawn', "~> 0.3.0")
-  s.add_dependency('sinatra', "~> 1.0")
+  s.add_dependency('sinatra', ">= 1", "< 5")
   s.add_dependency('mustache', [">= 0.11.2", "< 1.0.0"])
   s.add_dependency('sanitize', "~> 2.0.0")
   s.add_dependency('nokogiri', "~> 1.4")
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('shoulda')
   s.add_development_dependency('rack-test')
   s.add_development_dependency('wikicloth', '~>0.8.0')
-  s.add_development_dependency('rake', '~> 0.9.2')
+  s.add_development_dependency('rake', '~> 13.2.1')
 
   # = MANIFEST =
   s.files = %w[
